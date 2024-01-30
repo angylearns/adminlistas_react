@@ -35,7 +35,7 @@ Este proyecto está en fase de desarrollo.
 
  Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu máquina. Si no los tienes instalados, puedes descargarlos desde [aquí](https://nodejs.org/).
 
-    Para obtener una copia local del proyecto, siga estos pasos:
+   Para obtener una copia local del proyecto, siga estos pasos:
 
 1. git clone `https://github.com/angylearns/adminlistas_react.git`
 
