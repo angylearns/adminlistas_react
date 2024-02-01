@@ -1,9 +1,28 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "userName": "Peppa",
-        "userSurname": "Pig"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": "427c",
+      "userName": "Lucía",
+      "userLastname1": "Gol",
+      "userLastname2": "Log",
+      "userEmail": "lucia@gmail.com",
+      "userPhone": "466594949"
+    },
+    {
+      "id": "01ec",
+      "userName": "Gracia",
+      "userLastname1": "Lópex",
+      "userLastname2": "Gui",
+      "userEmail": "gracia@hotmail.com",
+      "userPhone": "466543667"
+    },
+    {
+      "id": "4d77",
+      "userName": "fgfhfj",
+      "userLastname1": "ryjryj",
+      "userLastname2": "rturyury",
+      "userEmail": "khvhkvh@g.com",
+      "userPhone": "66667788"
+    }
+  ]
+}
