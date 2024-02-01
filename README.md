@@ -18,7 +18,7 @@ Este proyecto es el tercer trabajo (01/2024 - 02/2024) del Bootcamp Full Stack F
 
 ## Estado del Proyecto
 
-Este proyecto está en fase de desarrollo.
+Este proyecto está en producción.
 
 
 ## Tecnologías Utilizadas
@@ -29,6 +29,7 @@ Este proyecto está en fase de desarrollo.
 - React
 - Json Server
 - Axios
+- SweetAlert2
 
 
 ## Acceso al Proyecto
