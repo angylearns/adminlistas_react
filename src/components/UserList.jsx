@@ -28,60 +28,11 @@ const UserList = () =>{
         setUser({...user, [e.target.name]:e.target.value})
     };
 
-    // async function handleModifyUser(id) {
-    //     const selectedUser = userList.find(user => user.id === id);
-        
-    //     if (selectedUser) {
-    //         const inputs = {
-    //             userName: document.querySelector("input[name=userName]"),
-    //             userLastname1: document.querySelector("input[name=userLastname1]"),
-    //             userLastname2: document.querySelector("input[name=userLastname2]"),
-    //             userEmail: document.querySelector("input[name=userEmail]"),
-    //             userPhone: document.querySelector("input[name=userPhone]")
-    //         };
-    
-    //         // Guardar los valores actuales de todos los campos en variables
-    //         const originalValues = {
-    //             userName: selectedUser.userName,
-    //             userLastname1: selectedUser.userLastname1,
-    //             userLastname2: selectedUser.userLastname2,
-    //             userEmail: selectedUser.userEmail,
-    //             userPhone: selectedUser.userPhone
-    //         };
-    
-    //         // Pintar los valores guardados en los inputs
-    //         inputs.userName.value = originalValues.userName;
-    //         inputs.userLastname1.value = originalValues.userLastname1;
-    //         inputs.userLastname2.value = originalValues.userLastname2;
-    //         inputs.userEmail.value = originalValues.userEmail;
-    //         inputs.userPhone.value = originalValues.userPhone;
-    
-    //         // Eliminar el onchange de los campos que no quieres que se modifiquen
-    //         inputs.userName.removeAttribute('onchange');
-    //         inputs.userLastname1.removeAttribute('onchange');
-    //         inputs.userLastname2.removeAttribute('onchange');
-    //         inputs.userEmail.removeAttribute('onchange');
-    //         inputs.userPhone.removeAttribute('onchange');
-    //     }
-    
-    //     // Realizar la modificación del usuario
-    //     const updatedUser = {
-    //         userName: document.querySelector("input[name=userName]").value,
-    //         userLastname1: document.querySelector("input[name=userLastname1]").value,
-    //         userLastname2: document.querySelector("input[name=userLastname2]").value,
-    //         userEmail: document.querySelector("input[name=userEmail]").value,
-    //         userPhone: document.querySelector("input[name=userPhone]").value
-    //     };
-        
-    //     await UserService.modifyUser(id, updatedUser);
-    // }
-
     async function handleDeleteUser(id){
 
         await UserService.deleteUser(id);
         getData();
     };
-
 
     async function handleAddUserToList() {
 
