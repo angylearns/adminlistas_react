@@ -48,6 +48,8 @@ Este proyecto está en producción.
 
 5. Ejecuta el proyecto: `npm start`
 
+6. Corre el proyecto: `npm run dev` 
+
 
 # Desarrolladora del Proyecto
 
