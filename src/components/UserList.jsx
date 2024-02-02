@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { UserService } from "../userService";
 import { useForm } from 'react-hook-form';
-import '../index.css';
 
 const UserList = () =>{
 
