@@ -182,7 +182,7 @@ body {
 
   #root #form #sectInputName { grid-area: 1 / 1 / 2 / 2; }
   #root #form #sectInputLast1 { grid-area: 1 / 2 / 2 / 3; }
-  #root #form #sectInputLast1 { grid-area: 1 / 3 / 2 / 4; }
+  #root #form #sectInputLast2 { grid-area: 1 / 3 / 2 / 4; }
   #root #form #sectInputPhone { grid-area: 2 / 1 / 3 / 2; }
   #root #form #sectInputEmail { grid-area: 2 / 2 / 3 / 4; }
   #root #form #addBtn { grid-area: 3 / 2 / 4 / 3; }

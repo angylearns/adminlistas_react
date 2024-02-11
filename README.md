@@ -34,7 +34,7 @@ Este proyecto está en producción.
 
 ## Acceso al Proyecto
 
- Antes de comenzar, asegúrate de tener instalado Node.js y npm en tu máquina. Si no los tienes instalados, puedes descargarlos desde [aquí](https://nodejs.org/).
+ Antes de comenzar, asegúrate de tener instalado Node.js y `npm` en tu máquina. Si no los tienes instalados, puedes descargarlos desde [aquí](https://nodejs.org/).
 
    Para obtener una copia local del proyecto, siga estos pasos:
 
